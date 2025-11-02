@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pankaj | Portfolio</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ====== NAVBAR ====== -->
+  <header>
+    <nav class="navbar container">
+      <div class="logo">
+        <img src="image/P.jpg" alt="Pankaj" />
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        <li><a href="assets\Resume.docx" target="_blank" class="btn"><i class="fas fa-file-alt"></i> Resume</a></li>
+      </ul>
+      <div class="menu-btn" id="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ====== HOME ====== -->
+  <section id="home">
+    <div class="container">
+      <h1>Hi, I'm <span>Pankaj</span></h1>
+      <h3>Computer Science Student & Web Developer</h3>
+      <p>I design and build responsive, secure, and modern web solutions.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="image\p.png" alt="Pankaj Bandekar" />
+      <p>
+       I’m a passionate Computer Science student with a strong focus on web development, 
+       cybersecurity, and artificial intelligence. I love transforming ideas into interactive, 
+       user-friendly, and secure digital experiences that make an impact.My goal is to build applications that are not only 
+       visually engaging but also scalable, efficient, and reliable. I enjoy solving real-world problems through code, exploring 
+       emerging technologies, and continuously improving my technical and creative skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS ====== -->
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skill-grid">
+        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-python"></i> Python</div>
+        <div class="skill"><i class="fab fa-react"></i> React</div>
+        <div class="skill"><i class="fas fa-database"></i> SQL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS ====== -->
+  <section id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>POS Inventory System</h3>
+          <p>A point-of-sale and inventory system for efficient business management.</p>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Modern and responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <h3>AI Chatbot</h3>
+          <p>A simple chatbot integrated with APIs to simulate intelligent conversation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <form action="mailto:your-email@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <p>© 2025 Pankaj Bandekar | Designed with ❤️</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/pankajbandekar0/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/its-pankaj15" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://x.com/PankajB30323" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      menuBtn.classList.toggle("active");
+    });
+
+    function closeMenu() {
+      navLinks.classList.remove("active");
+      menuBtn.classList.remove("active");
+    }
+  </script>
+</body>
+</html>
