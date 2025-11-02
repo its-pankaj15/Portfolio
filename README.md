@@ -19,6 +19,10 @@ It’s built using **HTML**, **CSS**, and **JavaScript** to create a clean and p
 - **GitHub Pages** – Deployment  
 
 ---
+<p align="center">
+  <img src="https://github.com/its-pankaj15/Portfolio/blob/main/Screenshot%202025-11-02%20124043.png" width="700" alt="Portfolio Preview">
+</p>
+
 
 ## 💼 Features
 - Responsive design for all devices  
