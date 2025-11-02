@@ -29,10 +29,9 @@ It’s built using **HTML**, **CSS**, and **JavaScript** to create a clean and p
 ---
 
 ## 📞 Contact Me
-📧 **Email:** yourname@email.com  
+📧 **Email:** pankajbandekar0@gmail.com  
 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/pankajbandekar0/)  
 🐙 **GitHub:** [github.com/yourusername](https://github.com/its-pankaj15)
 
 ---
 
-⭐ *If you like this project, consider giving it a star!*
