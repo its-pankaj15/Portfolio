@@ -23,9 +23,6 @@ It’s built using **HTML**, **CSS**, and **JavaScript** to create a clean and p
   <img src="https://github.com/its-pankaj15/Portfolio/blob/main/Screenshot%202025-11-02%20124043.png" width="700" alt="Portfolio Preview">
 </p>
 
-🔗 **Live Demo:** [View Portfolio](https://its-pankaj15.github.io/Portfolio/)
-
-
 ## 💼 Features
 - Responsive design for all devices  
 - Project showcase with live links  
